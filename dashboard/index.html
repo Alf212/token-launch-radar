@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Launch Radar — pre-token protocols ranked by implied value</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="blip" aria-hidden="true"></span>
+    <div>
+      <h1>Token Launch Radar</h1>
+      <p class="tagline">Every protocol that records no token yet, ranked by what its launch would be worth — and how to farm it.</p>
+    </div>
+  </div>
+  <nav class="tabs" aria-label="Views">
+    <a href="#/" data-tab="board">Radar board</a>
+    <a href="#/live" data-tab="live">Already trading</a>
+  </nav>
+</header>
+<main id="app" aria-busy="true">
+  <p class="loading">Sweeping the snapshot…</p>
+</main>
+<footer class="foot">
+  <p id="foot-note">Implied value is this radar's own model claim, derived only from the sealed snapshot's figures. It is not a prediction that a token will be issued.</p>
+</footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
